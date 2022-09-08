@@ -13,7 +13,7 @@ for (int m = 0; m < matr.GetLength(0); m++)
         {
             matr[m, n, k] = new Random().Next(11, 99);
             Console.Write($"Элемент: {matr[m, n, k]}");
-            Console.WriteLine($" Индекс: {m},{n},{k}; ");
+            Console.Write($" Индекс: {m},{n},{k}; ");
         }
         Console.WriteLine();
     }
